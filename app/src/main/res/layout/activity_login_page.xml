@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    tools:context=".login_page_farmer">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:fontFamily="@font/actor"
+        android:text="Login as a Farmer"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Enter Email_id"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Enter Password"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="180dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="315dp"
+
+        android:backgroundTint="@color/black"
+        android:onClick="crop"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="295dp"
+        android:onClick="login_retailer"
+        android:text="Are you a Retailer.Click Here to Login"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

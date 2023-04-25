@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Crop">
+
+
+
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="78dp"-->
+<!--        android:layout_marginTop="652dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <LinearLayout
+        android:id="@+id/bottom_taskbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="288dp"
+        android:background="@color/taskbar_bg_color"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/taskbar_search_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/home" />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/taskbar_Upload_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_weight="1"-->
+<!--            android:src="@drawable/search"/>-->
+        <ImageButton
+            android:id="@+id/taskbar_chat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/chat_bubble"
+            android:onClick="chat"/>
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_weight="1"
+            android:background="#F35252"
+            android:bottomLeftRadius="10dp"
+            android:bottomRightRadius="10dp"
+            android:ellipsize="middle"
+            android:fontFamily="sans-serif-medium"
+            android:text="+"
+            android:textSize="24sp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp" />
+
+        <ImageButton
+            android:id="@+id/taskbar_profile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:src="@drawable/user" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

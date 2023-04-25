@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Farm2Retail"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".cropbuy_retailer"
+            android:exported="false" />
+        <activity
+            android:name=".list_of_chats"
+            android:exported="false" />
+        <activity
+            android:name=".login_page_retailer"
+            android:exported="false" />
+        <activity
+            android:name=".LoginFarmer"
+            android:exported="false" />
+        <activity
+            android:name=".Crop"
+            android:exported="false" />
+        <activity
+            android:name=".RetailerSignup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
