@@ -14,10 +14,10 @@ public class cropbuy_retailer extends AppCompatActivity {
         setContentView(R.layout.activity_cropbuy_retailer);
     }
 
-    public void cart(View view){
-        Intent i=new Intent(this,cart.class);
-        startActivity(i);
-    }
+//    public void cart(View view){
+//        Intent i=new Intent(this,cart.class);
+//        startActivity(i);
+//    }
 
 
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBF9F9"
-    tools:context=".login_page_farmer">
+    tools:context=".LoginFarmer">
 
 
     <TextView
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/locationfarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -32,28 +32,28 @@
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=" Enter Email_id"
+        android:text=" jane@example.com"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/GstinRetailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="220dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text=" Enter Password"
+        android:inputType="textPassword"
+        android:text=" hello1234"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/loginfarmer"
         android:layout_width="180dp"
         android:layout_height="51dp"
         android:layout_marginStart="90dp"

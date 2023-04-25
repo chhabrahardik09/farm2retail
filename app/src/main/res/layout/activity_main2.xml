@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FBF9F9"
-    tools:context=".RetailerSignup">
+    tools:context=".MainActivity2">
 
 
     <TextView
@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/locationfarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailfarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/PhoneNofarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/RationNofarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -76,7 +76,7 @@
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=" Wheat"
+        android:text=" RATION_NO"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -90,13 +90,13 @@
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="   Delhi"
+        android:text="hello1234"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/loginfarmer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"

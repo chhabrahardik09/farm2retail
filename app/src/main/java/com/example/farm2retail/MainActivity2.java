@@ -27,16 +27,13 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        inputEmail=findViewById(R.id.email);
+        inputEmail=findViewById(R.id.emailfarmer);
 
         inputPassword=findViewById(R.id.passwordfarmer);
 
-        registerf=findViewById(R.id.submit);
+        registerf=findViewById(R.id.loginfarmer);
+        firebaseAuth=FirebaseAuth.getInstance();
         firebaseUser=firebaseAuth.getCurrentUser();
-
-
-
-
 
 
 

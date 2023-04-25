@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName6"
+        android:id="@+id/LoactionRetailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailretailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -54,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/PhoneNoRetailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -68,7 +68,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/GstinRetailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/passwordfarmer"
+        android:id="@+id/passwordretailer"
         android:layout_width="254dp"
         android:layout_height="53dp"
         android:layout_marginStart="60dp"
@@ -97,14 +97,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/submit"
+        android:id="@+id/loginretailer"
         android:layout_width="250dp"
         android:layout_height="51dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="624dp"
 
         android:backgroundTint="@color/black"
-        android:onClick="crop"
+        android:onClick="FarmerSignup"
         android:text="NEXT"
 
         android:textColor="@android:color/white"

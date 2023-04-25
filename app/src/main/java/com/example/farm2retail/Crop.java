@@ -1,5 +1,6 @@
 package com.example.farm2retail;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,5 +17,9 @@ public class Crop extends AppCompatActivity {
     public void chat(View view){
         Intent i=new Intent(this,list_of_chats.class);
         startActivity(i);
+    }
+
+    public void AddCrop(View view) {
+
     }
 }
